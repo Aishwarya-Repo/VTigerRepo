@@ -32,11 +32,11 @@ public class BaseClass {
 	public void bsConfig() {
 		System.out.println("database connect sucessfully");
 	}
-	@Parameters("browser")
-	@BeforeTest
-//	@BeforeClass(groups =  {"SmokeExecution","regression"})
-	public void bcConfig(String browser) throws IOException {
-		//String browser = pu.readDataFromPropertyFile("browser");
+	//@Parameters("browser")
+	//@BeforeTest
+	@BeforeClass(groups =  {"SmokeExecution","regression"})
+	public void bcConfig(/*String browser*/) throws IOException {
+		String browser = pu.readDataFromPropertyFile("browser");
 		String url = pu.readDataFromPropertyFile("url");
 
 		if (browser.equalsIgnoreCase("chrome")) {

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-25T21:47:25 IST" name="Default suite" finished-at="2026-01-25T21:47:25 IST" duration-ms="122">
+  <suite started-at="2026-01-30T13:31:02 IST" name="Suite" finished-at="2026-01-30T13:31:03 IST" duration-ms="79">
     <groups>
     </groups>
-    <test started-at="2026-01-25T21:47:25 IST" name="Default test" finished-at="2026-01-25T21:47:25 IST" duration-ms="122">
+    <test started-at="2026-01-30T13:31:02 IST" name="Test" finished-at="2026-01-30T13:31:03 IST" duration-ms="79">
       <class name="PracticeProgramVTiger.ReadDataFromCmdLinetest">
-        <test-method signature="readData()[pri:0, instance:PracticeProgramVTiger.ReadDataFromCmdLinetest@ea6147e]" started-at="2026-01-25T21:47:25 IST" name="readData" finished-at="2026-01-25T21:47:25 IST" duration-ms="17" status="PASS">
+        <test-method signature="readData()[pri:0, instance:PracticeProgramVTiger.ReadDataFromCmdLinetest@101952da]" started-at="2026-01-30T13:31:03 IST" name="readData" finished-at="2026-01-30T13:31:03 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readData -->
       </class> <!-- PracticeProgramVTiger.ReadDataFromCmdLinetest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
