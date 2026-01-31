@@ -26,6 +26,7 @@ public class RandomNumberPractice {
 	public void run()
 	{
 		System.out.println("run is the job for jenkins try to poll scm");
+		System.out.println("runnnnn");
 	}
 	
 	
